@@ -12,13 +12,24 @@ main {
   padding:10px;
 }
 
-main container {
-  display: block;
-  width:800px;
-  height: 600px;
-  align-self:center;
-  align-content: left;
-  background-color: black;
+h1 {
+  font-size: 30px !important;
+}
+h2{
+  font-size: 20px !important;
+}
+
+#spacer, #spacer2{
+  margin-top: 30px;
+}
+
+#currentSelector{
+
+}
+
+.curentColor {
+  border: 1px dotted black;
+  border-spacing: center;
 }
 
 .row {
@@ -27,19 +38,16 @@ main container {
 
 .square {
   display: inline-block;
-  /* background-color:  */
-  border: 1px solid black;
+  border: 1px dotted black;
   rgba(255,255,255,0.5);
   width:20px;
   height: 20px;
 }
 
 .pallet{
-  flex: auto;
-  flex-direction: row;
   display: inline-block;
-  border: 1px solid black;
   rgba(255,255,255,0.5);
+
   width:50px;
   height: 50px;
 }

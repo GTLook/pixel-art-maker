@@ -5,33 +5,46 @@
   <meta charset="utf-8">
   <title>Pixel Art</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script defer src="main.js"></script>
 </head>
 
 <body>
-  <div class="main">
-
-    <!-- grid is generated here -->
-
-      <div class="container">
+  <div class="main justify-content-center">
+    <div class="container justify-content-center">
+      <div class="row justify-content-center" id="spacer">
+        <h1> Pixel Painter </h1>
+      </div>
+      <div class="row justify-content-center" id="spacer">
+        <div class="row justify-content-center">
+          <!-- grid is generated here -->
+          <div id='grid'></div>
+        </div>
       </div>
 
+      <!-- color palette -->
 
-    <!-- color palette -->
-    <div class="row">
-      <div class="pallet">
-        <div class="pallet color1"></div>
-        <div class="pallet color2"></div>
-        <div class="pallet color3"></div>
-        <div class="pallet color4"></div>
-        <div class="pallet color5"></div>
-        <div class="pallet color6"></div>
-        <div class="pallet color7"></div>
-        <div class="pallet color8"></div>
+      <div class="row justify-content-center" id="spacer2">
+        <div class="row pallet col-md-8 justify-content-center">
+          <div class="pallet color1"></div>
+          <div class="pallet color2"></div>
+          <div class="pallet color3"></div>
+          <div class="pallet color4"></div>
+          <div class="pallet color5"></div>
+          <div class="pallet color6"></div>
+          <div class="pallet color8"></div>
+          <div class="pallet color7"></div>
+        </div>
+        <div class="row pallet col-md-8 justify-content-center" id="spacer2">
+          <div class="col-lg-4 justify-content-center" id="hideMe">
+            <h2>Pick a Color!</h2></div>
+        </div>
+        <div class="row pallet col-md-8 justify-content-center">
+          <div class="col-lg-4 justify-content-center" id="currentSelector"></div>
+        </div>
+      </div>
     </div>
-
   </div>
-
 </body>
 
 </html>
